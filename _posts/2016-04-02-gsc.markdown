@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Glorious Sugar Creations"
+permalink: "gsc"
+image: /images/gsc-tile.jpg
+tag: Brand Identity | Logo Design
+---
+
+Glorious Sugar Creations is a specialty cake shop in South Bend Indiana. The owner, Gloria, needed an identity to match the whimsical nature of her shop's personality but as fine-tuned as the detail she puts into her creations. The elegant script paired with simple illustrations and sugar-sweet color palette promote a simple but fun overall brand.
+
+![]()
+
+<br />
+<br />
+
+### Logo Ideation
+<div class="columns">
+<div class="column is-half is-text-centered">
+	<p>Initial sketch by the client</p>
+<img src="/images/gsc-sketch.jpg">
+</div>
+<div class="column is-half is-text-centered">
+	<p>Logo mockups</p>
+<img src="/images/gsc-logos.jpg">
+</div>
+</div>
+
+<br />
+<br />
+
+### Final Logo Design
+![](/images/gsc-logo.jpg)
+![](/images/gsc-pallete.jpg)
+
+<br />
+<br />
+
+### Pattern
+![](/images/gsc-pattern.jpg)

@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Persona Magazine"
+permalink: "persona"
+image: /images/personatile.jpg
+tag: Magazine Design | Page Layout | Publication Styling & Branding | Journalistic Writing
+---
+
+PERSONA is a geek and gaming culture based magazine that I created as a class project at Ball State University. The idea for the magazine stemmed from the fact that women are generally underrepresented in what is often refered to as “nerd culture.” The philosophy behind it is that women shouldn’t be afraid to like certain things and be proud of their involvement in an otherwise male-dominated culture. 
+<br />
+<br />
+
+The process included creating an original style guide and media kit along with designing and writing content for the entire magazine. The finished product has a loud and vibrant style that compliments the style of the audience the magazine targets.
+
+![persona magazine](http://c.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2016/02/3056335-poster-p-1-7-trends-that-are-defining-web-design.jpg)

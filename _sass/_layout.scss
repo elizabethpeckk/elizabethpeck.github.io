@@ -1,0 +1,193 @@
+/**
+ * Site header
+ */
+.site-header {
+    border-top: 5px solid $grey-color-dark;
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 56px;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+.site-title {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+//-------- Site Nav --------//
+
+.navbar:not(:last-child){
+margin-bottom: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: rgba(230, 231, 232, 0.95);
+    -webkit-box-shadow: 1px 4px 1px 0px rgba(88,89,91,0.4);
+-moz-box-shadow: 1px 4px 1px 0px rgba(88,89,91,0.4);
+box-shadow: 1px 4px 1px 0px rgba(88,89,91,0.4);
+padding: 10px;
+z-index: 10;
+    &.is-fixed {
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 100;
+    }
+}
+
+.navbar-item {
+    text-transform: uppercase;
+}
+
+.navbar-left .navbar-item:not(:last-child){
+    margin-right: 3vw;
+}
+
+.nav-link a {
+    font-family: 'Montserrat-Light', Helvetica, Arial, sans-serif;
+    font-size: .9em;
+    &:hover {
+        color: $seafoam;
+        text-decoration: none;
+    }
+}
+
+.menu-trigger {
+    display: none;
+}
+
+.mobile-nav {
+    display:none;
+    position: fixed;
+    top:70px;
+}
+
+@media screen and (min-width: 769px) {
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        padding-bottom: 0;
+    }
+    .menu-trigger {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 17px;
+    }
+    .nav-link, .navbar-right {
+        display: none;
+    }
+    .mobile-nav .navbar-item:not(.social-link) {
+        margin-bottom: 40px;
+    }
+    .social-links {
+        text-align: center;
+    }
+    .social-link {
+        display: inline-block;
+        margin-right: 20px;
+    }
+}
+
+
+/**
+ * Site footer
+ */
+.footer {
+    padding: 10px;
+    font-size: .8em;
+    background-color: $seafoam;
+    margin-bottom: 0;
+}
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+    margin-top: 10px;
+}
+
+.post-link h4{
+    display: block;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 1.3em;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+
+
+/**
+ * Posts
+ */
+
+.post {
+    color: $purple;
+}
+
+.post-header {
+    margin-bottom: $spacing-unit;
+    margin-top: 40px;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}

@@ -1,0 +1,224 @@
+body a {
+	color: $purple;
+}
+
+.page-content {
+	padding-bottom: 0;
+}
+
+.columns {
+	margin-top: 0;
+}
+
+
+
+// Project tiles
+.clip-tile {
+	height: 230px;
+	text-align: center;
+}
+
+.clip-tile {
+	background-size: cover;
+	background-position: center;
+-webkit-box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.53);
+-moz-box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.53);
+box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.53);
+}
+
+.clip-content {
+	opacity: 0;
+	margin: 0;
+	height: 100%;
+	padding: 10px;
+	padding-top: 80px;
+	background-color: rgba(183,217,200,0.8);
+	  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.clip-tile:hover .clip-content{
+	opacity: 1;
+	  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease; 
+}
+
+@media screen and (max-width: 800px) {
+.clip-content {
+	opacity: 1;
+}
+
+
+}
+
+section {
+	min-height: 100vh;
+	padding-top: 8vh;
+	padding-bottom: 30px;
+	background-size: cover;
+	background-position: bottom;
+}
+
+#home {
+	background-color: $seafoam;
+	background-image: url("/images/p-green.png");
+	padding-top: 15vh;
+}
+
+#work {
+	background-color: rgba(100, 81, 100, .85);
+	background-image: url("/images/p-purple-work.png");
+}
+
+#resume {
+	background-color: $grey-light;
+	color: $purple;
+	background-image: url("/images/p-purple-resume.png");
+	padding-top: 250px;
+}
+
+#about{
+    color: white;
+    min-height: 0;
+    position: relative;
+    margin-top: -850px;
+    padding-bottom: 70px;
+    z-index: 11;
+}
+
+.bio-bg {
+    min-height: 850px;
+    background: transparent;
+    position: relative;
+}
+
+
+
+#logo {
+	width: 180px;
+	height: auto;
+		  -webkit-transition: all 600ms ease;
+  -moz-transition: all 600ms ease;
+  -o-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+
+.headtitle {
+	margin-top: 20px;
+	margin-bottom: 0;
+	color: $purple;
+	font-size: 3em;
+		  -webkit-transition: all 600ms ease;
+  -moz-transition: all 600ms ease;
+  -o-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+
+.subtitle {
+	font-family: 'Montserrat-Hairline', Helvetica, Arial, sans-serif;
+	font-size: 2.2em;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+	line-height: 10px;
+		  -webkit-transition: all 600ms ease;
+  -moz-transition: all 600ms ease;
+  -o-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+
+
+@media screen and (max-width: 979px) {
+	.container {
+		padding: 20px;
+	}
+	#about {
+		padding-bottom: 0;
+		max-height: 800px;
+	}
+	#resume {
+		padding-top: 150px;
+	}
+	.parallax-window {
+		height: auto;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	#logo {
+		width: 160px;
+			  -webkit-transition: all 600ms ease;
+  -moz-transition: all 600ms ease;
+  -o-transition: all 600ms ease;
+  transition: all 600ms ease;
+	}
+	.headtitle {
+		font-size: 2em;
+			  -webkit-transition: all 600ms ease;
+  -moz-transition: all 600ms ease;
+  -o-transition: all 600ms ease;
+  transition: all 600ms ease;
+
+	}
+	.subtitle {
+		font-size: 1.5em;
+			  -webkit-transition: all 600ms ease;
+  -moz-transition: all 600ms ease;
+  -o-transition: all 600ms ease;
+  transition: all 600ms ease;
+	}
+	#about {
+		p {
+			font-size: .8em
+		}
+	}
+	#resume {
+		padding-top: 220px;
+	}
+}
+
+.cta {
+	bottom: 5px;
+	font-family: 'Montserrat-Hairline', Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+.bio-head {
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 2.5em;
+    color: $seafoam;
+}
+
+.bio-text {
+    font-family: 'Montserrat-Light', Helvetica, Arial, sans-serif;
+}
+
+.resume-item {
+	margin-top: 20px;
+	h3 {
+	}
+
+	h4 {
+    font-family: 'Montserrat-Hairline', Helvetica, Arial, sans-serif;
+    font-size: 1em;
+	}
+
+	p {
+    	font-family: 'Montserrat-Light', Helvetica, Arial, sans-serif;
+	}
+
+	hr {
+		border-top: 1px solid $purple;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	#resume {
+		padding-top: 100px;
+	}
+}
+

@@ -1,0 +1,118 @@
+---
+layout: default
+---
+<section id="home" class="is-text-centered">
+  <img src="/images/logo.png" id="logo">
+  <h1 class="headtitle">ELIZABETH PECK</h1>
+  <h3 class="subtitle is-marginless">UX & Graphic Designer</h3>
+  <a data-scroll href="#work">
+    <div class="cta" style="position:absolute; width:100%; text-align:center">
+    <p style="margin-bottom:20px">View My Work</p>
+    <div class="animated bounce">
+      <svg height="30" width="100">
+        <polyline points="35,10 50,25 65,10" stroke="#645164" stroke-width="2" fill="none"></polyline>
+      </svg>
+  </div>
+  </a>
+</section>
+
+<section id="work">
+  <div class="container">
+    <div class="columns is-multiline">
+        {% for post in site.posts %}
+          <div class="column is-third">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <figure class="clip-tile" style="background-image: url('{{ post.image }}')">
+              <figcaption class="clip-content">
+              <h4>
+                {{ post.title }}
+              </h4>
+              <span class="post-meta">{{ post.tag }}</span>
+            </figcaption>
+          </figure>
+          </a>
+        </div>
+        {% endfor %}
+    </div>
+  </div>
+</section>
+
+<div class="parallax-window bio-bg" data-parallax="scroll" data-image-src="/images/selfie.jpg" data-z-index="10"></div>
+<section id="about">
+  <div class="container">
+    <div class="bio columns">
+      <div class="column is-8">
+        <h1 class="bio-head">Hello! I'm Elizabeth</h1>
+        <p class="bio-text">
+          I'm currently a user experience design intern with Walt Disney Parks and Resorts Technology, and a former graphic design intern with Walt Disney Security. I graduated with a degree in both Journalism and Graphic Design from Ball State University in Muncie, Indiana.</p><br>
+          <p class="bio-text">
+          At Disney Technology, I design the desktop, tablet and mobile applications the Cast Members use everyday in the Disney theme parks and resorts. The products I produce directly impact overall guest experience and day-to-day effeciency of Walt Disney World, Disneyland, and the other Disney parks around the world.</p><br>
+<p class="bio-text">
+          While I was with Disney Security, I designed logos, posters/signage, and presentations among various other projects for the global Security division. I was also responsible for internal communications via email blasts and news slides.</p><br>
+<p class="bio-text">
+          I love any form of visual storytelling, and I have a passion for both video games and animation. I also drink more coffee than is necessary for any human. </p><br>
+<p class="bio-text">
+          Let’s get in touch! My social media links are  in the right hand corner, and you can always <a href="mailto:{{ site.email }}" style="color:#B7D9C8">send me an email.</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="resume">
+  <div class="container">
+    <h1>Resume</h1>
+    <h3>Download the pdf version <a href="{{ site.resume_link }}" style="color:#B7D9C8">here.</a></h3>
+    <hr>
+    <div class="columns">
+      <div class="column is-7">
+        <h2>EXPERIENCE</h2>
+          <div class="resume-item">
+            <h3>User Experience Design Intern</h3>
+            <h4 style="margin-bottom:10px;">Walt Disney Parks & Resorts Technology, January 2016 - Present</h4>
+            <hr>
+            <p>Design desktop, tablet, and mobile applications using Axure RP software to produce interactive simulations, wireframes and prototypes. Work on project teams in a fast-paced agile software development environment. Present design solutions to executive and senior leaders from multiple internal lines of business. Conduct user interviews, attend job shadows and perform user testing of designed applications.</p>
+          </div>
+          <div class="resume-item">
+            <h3>User Experience Design Intern</h3>
+            <h4 style="margin-bottom:10px;">Walt Disney Parks & Resorts Technology, January 2016 - Present</h4>
+            <hr>
+            <p>Design desktop, tablet, and mobile applications using Axure RP software to produce interactive simulations, wireframes and prototypes. Work on project teams in a fast-paced agile software development environment. Present design solutions to executive and senior leaders from multiple internal lines of business. Conduct user interviews, attend job shadows and perform user testing of designed applications.</p>
+          </div>
+          <div class="resume-item">
+            <h3>User Experience Design Intern</h3>
+            <h4 style="margin-bottom:10px;">Walt Disney Parks & Resorts Technology, January 2016 - Present</h4>
+            <hr>
+            <p>Design desktop, tablet, and mobile applications using Axure RP software to produce interactive simulations, wireframes and prototypes. Work on project teams in a fast-paced agile software development environment. Present design solutions to executive and senior leaders from multiple internal lines of business. Conduct user interviews, attend job shadows and perform user testing of designed applications.</p>
+          </div>
+      </div>
+      <div class="column is-3 is-offset-1 is-text-centered">
+        <h2>SKILLS</h2>
+          <div class="resume-item">
+            <h3>Software</h3>
+            <p>InDesign</p>
+            <p>Illustrator</p>
+            <p>Photoshop</p>
+            <p>After Effects</p>
+            <p>Premiere Pro</p>
+            <p>Digital Publishing Suite</p>
+            <p>Axure RP</p>
+            <p>Sketch</p>
+            <p>Keynote</p>
+            <p>Microsoft Office</p>
+          </div>
+          <div class="resume-item">
+            <h3>Other</h3>
+            <p>Print and digital design</p>
+            <p>Digital illustrator</p>
+            <p>Cross-platform design</p>
+            <p>User experience</p>
+            <p>Motion graphics</p>
+            <p>Social media</p>
+            <p>Photography</p>
+            <p>Video editing</p>
+            <p>Journalistic writing</p>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>

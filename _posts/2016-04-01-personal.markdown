@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Digital Illustration"
+permalink: "personal"
+image: /images/poster1.jpg
+tag: Print Design | Communications | Motion Graphics
+---
+
+### Personal Project: Posters
+My love of design and my love of illustration go hand in hand. These are a few of the posters I've created just for fun. The first of which is from the Disney movie Pocahontas, and the second from the Disney game Kingdom Hearts.
+
+<br />
+<br />
+<div class="columns">
+<div class="column is-half">
+<img src="/images/poster1.jpg">
+</div>
+<div class="column is-half">
+<img src="/images/poster2.jpg">
+</div>
+</div>
+<br />
+<br />
+
+### Personal Project: Animation
+These are two projects that I made in Illustrator and animated in After Effects. Even in my free time, I'm always working to refine my skills as a designer and try new forms of visual communication that I don't get to work with while I'm on the clock. I made these animations to be easily shared on social media.
+
+<br />
+<br />
+
+
+<div class="columns">
+<div class="column is-half">
+<img src="/images/BB8.gif">
+</div>
+<div class="column is-half">
+<img src="/images/Groot.gif">
+</div>
+</div>

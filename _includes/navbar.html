@@ -1,0 +1,38 @@
+<!-- Main container -->
+<nav class="navbar is-fixed">
+  <!-- Left side -->
+  <div class="navbar-left">
+    <div class="navbar-item">
+      <a href="/"><p class="site-title is-5">
+        Elizabeth Peck
+      </p></a>
+    </div>
+    <p class="navbar-item nav-link"><a data-scroll href="/#work">Work</a></p>
+    <p class="navbar-item nav-link"><a data-scroll href="/#about">About</a></p>
+    <p class="navbar-item nav-link"><a data-scroll href="/#resume">Resume</a></p>
+    <p class="navbar-item menu-trigger"><a id="menu-trigger">MENU</a></p>
+  </div>
+
+  <!-- Right side -->
+  <div class="navbar-right">
+    <p class="navbar-item nav-link"><a href="https://twitter.com/{{ site.twitter_username }}"><img src="{{ site.url }}/images/twitter.png"></a></p>
+    <p class="navbar-item nav-link"><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><img src="{{ site.url }}/images/linked.png"></a></p>
+    <p class="navbar-item nav-link"><a href="https://www.instagram.com/{{ site.instagram_username }}"><img src="{{ site.url }}/images/insta.png"></a></p>
+    <p class="navbar-item nav-link"><a href="mailto:{{ site.email }}"><img src="{{ site.url }}/images/email.png"></a></p>
+  </div>
+</nav>
+
+
+<!-- Hacky alt nav -->
+<nav class="navbar mobile-nav">
+    <p class="navbar-item nav-link-mobile is-text-centered"><a data-scroll href="/">Home</a></p>
+    <p class="navbar-item nav-link-mobile is-text-centered"><a data-scroll href="/#work">Work</a></p>
+    <p class="navbar-item nav-link-mobile is-text-centered"><a data-scroll href="/#about">About</a></p>
+    <p class="navbar-item nav-link-mobile is-text-centered"><a data-scroll href="/#resume">Resume</a></p>
+    <div class="social-links">
+    <p class="navbar-item nav-link-mobile social-link"><a href="https://twitter.com/{{ site.twitter_username }}"><img src="{{ site.url }}/images/twitter.png"></a></p>
+    <p class="navbar-item nav-link-mobile social-link"><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><img src="{{ site.url }}/images/linked.png"></a></p>
+    <p class="navbar-item nav-link-mobile social-link"><a href="https://www.instagram.com/{{ site.instagram_username }}"><img src="{{ site.url }}/images/insta.png"></a></p>
+    <p class="navbar-item nav-link-mobile social-link"><a href="mailto:{{ site.email }}"><img src="{{ site.url }}/images/email.png"></a></p>
+  </div>
+</nav>

@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Disney Internal Communications"
+permalink: "Disney-Internal"
+image: /images/tv4.jpg
+tag: Illustration | Page Layout | Journalistic Writing
+---
+While on my internship with Walt Disney Security, I was responsible for the internal communication within the security division. This included designing and illustrating information slides which were displayed as via television in slideshow format. These televisions were housed in all employee areas, and the goal of these designs was to make information easy to read and understand within the 30 seconds someone will see it.
+<br />
+<br />
+
+<div class="columns">
+<div class="column is-half">
+<img src="/images/tv1.jpg">
+</div>
+<div class="column is-half">
+<img src="/images/tv2.jpg">
+</div>
+</div>
+<div class="columns">
+<div class="column is-half">
+<img src="/images/tv3.jpg">
+</div>
+<div class="column is-half">
+<img src="/images/tv4.jpg">
+</div>
+</div>
