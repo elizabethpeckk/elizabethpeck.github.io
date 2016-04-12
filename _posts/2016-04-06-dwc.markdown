@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Dirty White Couch Studio"
+title:  "Dirty White Couch Recording Studio"
 permalink: "Dirty-White-Couch-Studio"
 image: /images/dwc-tile.jpg
-tag: UX Design | Illustration
+tag: Web Design | UX | Branding
 ---
 Design desktop, tablet, and mobile applications using Axure RP software to produce interactive simulations, wireframes and prototypes. Work on project teams in a fast-paced agile software development environment. Present design solutions to executive and senior leaders from multiple internal lines of business. Conduct user interviews, attend job shadows and perform user testing of designed applications.
 

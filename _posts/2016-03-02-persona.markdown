@@ -3,7 +3,7 @@ layout: post
 title:  "Persona Magazine"
 permalink: "persona"
 image: /images/personatile.jpg
-tag: Magazine Design | Page Layout | Publication Styling & Branding | Journalistic Writing
+tag: Magazine Design | Branding | Journalistic Writing
 ---
 
 PERSONA is a geek and gaming culture based magazine that I created as a class project at Ball State University. The idea for the magazine stemmed from the fact that women are generally underrepresented in what is often refered to as “nerd culture.” The philosophy behind it is that women shouldn’t be afraid to like certain things and be proud of their involvement in an otherwise male-dominated culture. 

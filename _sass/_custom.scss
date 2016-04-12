@@ -2,6 +2,10 @@ body a {
 	color: $purple;
 }
 
+hr {
+	border-top: 1px solid $purple;
+}
+
 .page-content {
 	padding-bottom: 0;
 }
@@ -14,13 +18,11 @@ body a {
 
 // Project tiles
 .clip-tile {
-	height: 230px;
+	height: 270px;
 	text-align: center;
-}
-
-.clip-tile {
 	background-size: cover;
 	background-position: center;
+	color: $purple;
 -webkit-box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.53);
 -moz-box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.53);
 box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.53);
@@ -31,12 +33,15 @@ box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.53);
 	margin: 0;
 	height: 100%;
 	padding: 10px;
-	padding-top: 80px;
+	padding-top: 100px;
 	background-color: rgba(183,217,200,0.8);
 	  -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   -o-transition: all 300ms ease;
   transition: all 300ms ease;
+  span {
+	font-family: 'Montserrat-Light', Helvetica, Arial, sans-serif;
+  }
 }
 
 .clip-tile:hover .clip-content{
@@ -56,7 +61,6 @@ box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.53);
 }
 
 section {
-	min-height: 100vh;
 	padding-top: 8vh;
 	padding-bottom: 30px;
 	background-size: cover;
@@ -64,6 +68,7 @@ section {
 }
 
 #home {
+	min-height: 100vh;
 	background-color: $seafoam;
 	background-image: url("/images/p-green.png");
 	padding-top: 15vh;
@@ -72,6 +77,7 @@ section {
 #work {
 	background-color: rgba(100, 81, 100, .85);
 	background-image: url("/images/p-purple-work.png");
+	padding-bottom: 100px;
 }
 
 #resume {
@@ -79,6 +85,7 @@ section {
 	color: $purple;
 	background-image: url("/images/p-purple-resume.png");
 	padding-top: 250px;
+	padding-bottom: 100px;
 }
 
 #about{
@@ -209,10 +216,6 @@ section {
 
 	p {
     	font-family: 'Montserrat-Light', Helvetica, Arial, sans-serif;
-	}
-
-	hr {
-		border-top: 1px solid $purple;
 	}
 }
 
