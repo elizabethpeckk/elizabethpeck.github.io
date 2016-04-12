@@ -14,4 +14,4 @@ resume_link: /images/resume.pdf
 
 # Build settings
 markdown: kramdown
-highlighter: rogue
+highlighter: rouge
