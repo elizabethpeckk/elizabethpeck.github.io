@@ -60,6 +60,43 @@ $on-laptop:        800px;
     src: url('/images/Montserrat-Black.otf');
 }
 
+
+@font-face {
+    font-family:Montserrat;
+    src:url(/assets/fonts/Montserrat-Hairline.eot);
+    src:url(/assets/fonts/Montserrat-Hairline.eot?#iefix) format('embedded-opentype'),
+    url(/assets/fonts/Montserrat-Hairline.woff) format('woff'),
+    url(/assets/fonts/Montserrat-Hairline.ttf) format('truetype'),
+    url(/assets/fonts/Montserrat-Hairline.svg#1ec624975f362ffc7a87d22144317904) format('svg');
+    font-style:normal;font-weight:100}
+    
+@font-face {
+    font-family:Montserrat;
+    src:url(/assets/fonts/Montserrat-Light.eot);
+    src:url(/assets/fonts/Montserrat-Light.eot?#iefix) format('embedded-opentype'),
+    url(/assets/fonts/Montserrat-Light.woff) format('woff'),
+    url(/assets/fonts/Montserrat-Light.ttf) format('truetype'),
+    url(/assets/fonts/Montserrat-Light.svg#c152625b71562a7bb7b752375273b2d5) format('svg');
+    font-style:normal;font-weight:200}
+
+@font-face {
+    font-family:Montserrat;
+    src:url(/assets/fonts/Montserrat-Regular.eot);
+    src:url(/assets/fonts/Montserrat-Regular.eot?#iefix) format('embedded-opentype'),
+    url(/assets/fonts/Montserrat-Regular.woff) format('woff'),
+    url(/assets/fonts/Montserrat-Regular.ttf) format('truetype'),
+    url(/assets/fonts/Montserrat-Regular.svg#95d90f2cd2aa64bdfee0e9f34c516e71) format('svg');
+    font-style:normal;font-weight:400}
+    
+@font-face {font-family:Montserrat;
+    src:url(/assets/fonts/Montserrat-Bold.eot);
+    src:url(/assets/fonts/Montserrat-Bold.eot?#iefix) format('embedded-opentype'),
+    url(/assets/fonts/Montserrat-Bold.woff) format('woff'),
+    url(/assets/fonts/Montserrat-Bold.ttf) format('truetype'),
+    url(/assets/fonts/Montserrat-Bold.svg#2eb9a020d90588d099da01ff1a93c338) format('svg');
+    font-style:normal;font-weight:700}
+
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
