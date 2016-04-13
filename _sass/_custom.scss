@@ -4,6 +4,7 @@ body a {
 
 hr {
 	border-top: 1px solid $purple;
+	margin-top: 10px;
 }
 
 .page-content {
@@ -40,7 +41,7 @@ box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.53);
   -o-transition: all 300ms ease;
   transition: all 300ms ease;
   span {
-	font-family: 'Montserrat-Light', Helvetica, Arial, sans-serif;
+    font-weight: 200;
   }
 }
 
@@ -84,16 +85,19 @@ section {
 	background-color: $grey-light;
 	color: $purple;
 	background-image: url("/images/p-purple-resume.png");
-	padding-top: 250px;
+	padding-top: 100px;
 	padding-bottom: 100px;
+	position: relative;
+	a:hover {
+		color: $seafoam;
+	}
 }
 
 #about{
     color: white;
-    min-height: 0;
+    min-height: 800px;
     position: relative;
     margin-top: -850px;
-    padding-bottom: 70px;
     z-index: 11;
 }
 
@@ -126,7 +130,7 @@ section {
 }
 
 .subtitle {
-	font-family: 'Montserrat-Hairline', Helvetica, Arial, sans-serif;
+    font-weight: 100;
 	font-size: 2.2em;
 	text-transform: uppercase;
 	letter-spacing: -2px;
@@ -137,17 +141,14 @@ section {
   transition: all 600ms ease;
 }
 
+.back {
+	font-weight: 200;
+	margin-bottom: 40px;
+}
 
 @media screen and (max-width: 979px) {
 	.container {
 		padding: 20px;
-	}
-	#about {
-		padding-bottom: 0;
-		max-height: 800px;
-	}
-	#resume {
-		padding-top: 150px;
 	}
 	.parallax-window {
 		height: auto;
@@ -183,45 +184,48 @@ section {
 			font-size: .8em
 		}
 	}
-	#resume {
-		padding-top: 220px;
-	}
 }
 
 .cta {
-	bottom: 5px;
-	font-family: 'Montserrat-Hairline', Helvetica, Arial, sans-serif;
 	text-align: center;
+	position:absolute; 
+	width:100%;
+	bottom: 5px;
+	p {
+		margin-bottom:20px;
+		font-weight: 200;
+	}
+}
+
+.bio {
+	position: absolute;
 }
 
 .bio-head {
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-weight: 400;
     font-size: 2.5em;
     color: $seafoam;
 }
 
 .bio-text {
-    font-family: 'Montserrat-Light', Helvetica, Arial, sans-serif;
+    font-weight: 200;
 }
 
 .resume-item {
-	margin-top: 20px;
+	margin-top: 30px;
 	h3 {
 	}
 
 	h4 {
-    font-family: 'Montserrat-Hairline', Helvetica, Arial, sans-serif;
-    font-size: 1em;
+	    font-weight: 200;
+	    font-size: 1em;
+	    margin-bottom:10px;
 	}
 
 	p {
-    	font-family: 'Montserrat-Light', Helvetica, Arial, sans-serif;
+    	font-weight: 200;
+	}
+	hr {
+		margin-bottom: 20px;
 	}
 }
-
-@media screen and (max-width: 430px) {
-	#resume {
-		padding-top: 100px;
-	}
-}
-
