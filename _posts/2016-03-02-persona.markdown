@@ -11,5 +11,6 @@ PERSONA is a geek and gaming culture based magazine that I created as a class pr
 <br />
 
 The process included creating an original style guide and media kit along with designing and writing content for the entire magazine. The finished product has a loud and vibrant style that compliments the style of the audience the magazine targets.
-
-![persona magazine](http://c.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2016/02/3056335-poster-p-1-7-trends-that-are-defining-web-design.jpg)
+<br />
+<br />
+![persona magazine](/images/personapages.jpg)
