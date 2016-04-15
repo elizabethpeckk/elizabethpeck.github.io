@@ -5,8 +5,7 @@ permalink: "Dirty-White-Couch-Studio"
 image: /images/dwc-tile.jpg
 tag: Web Design | UX | Branding
 ---
-Design desktop, tablet, and mobile applications using Axure RP software to produce interactive simulations, wireframes and prototypes. Work on project teams in a fast-paced agile software development environment. Present design solutions to executive and senior leaders from multiple internal lines of business. Conduct user interviews, attend job shadows and perform user testing of designed applications.
-
+Dirty White Couch is a recording studio located in South Bend, Indiana. Having no online presence whatsoever, I was tasked with creating both a website and overall brand identity for the studio. Their name is derived from their beginning days of only having a garage to record and an old white couch to sit on. The overall look and feel of the website was inspired by the vibe of vintage Rock n’ Roll with a modern touch.
 
 <div class="columns">
 <div class="column is-full">
