@@ -70,9 +70,13 @@ section {
 
 #home {
 	min-height: 100vh;
-	background-color: $seafoam;
-	background-image: url("/images/p-green.png");
-	padding-top: 15vh;
+  background-color: $seafoam;
+}
+
+.top-title {
+	position:absolute;
+	width:100%;
+	top: 20vh;
 }
 
 #work {
@@ -228,4 +232,14 @@ section {
 	hr {
 		margin-bottom: 20px;
 	}
+}
+
+#particles-js{
+	position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
